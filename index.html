@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="CSS/pages.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<nav class="templateheader">
+    <ul>
+      <li><a href="index.html" class="Homebutton"><div class="buttontext">QnA</div></a></li>
+  </ul>
+</nav>
+
+<body>
+    <p class="topHeader">User Sign-On</p>
+
+    <div class="loginAll">
+        <div class="userIcon">
+            <img id="selectedIcon" src="Images/userIcon.png" alt="User Login Icon">
+        </div>
+        <div class="logincontainer">
+            <form actions="" method="POST" action="loginvalidation.php">
+                <label class="loginLabel" for="userEmail"><b>Email</b></label>
+                <input class="loginInput" type="text" placeholder="Enter Email" id="Email" name="Email" required>
+
+                <label class="loginLabel" for="userPass"><b>Password</b></label>
+                <input class="loginInput" type="password" placeholder="Enter Password" id="Pass" name="Pass" required>
+
+                <input type="submit" value="Login" name="submit"></input>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

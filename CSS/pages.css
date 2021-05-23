@@ -1,0 +1,162 @@
+/*For all pages to reference*/
+/*Header/Navbar Code*/
+.templateheader {
+    
+    position: absolute;
+     background-color: rgb(51, 146, 235);
+     height: 4%;
+     width: 100% ;
+     border-bottom: 1px solid rgb(51, 146, 235);
+}
+ 
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: rgb(51, 146, 235);
+}
+
+li {
+     float: left;
+}
+
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+
+body {
+     height: 100%;
+     width: 100%;
+     background-color: #f6f6f6;
+     margin: 0; padding: 0;
+}
+
+li a:hover {
+     background-color: #111;
+}
+
+/*Text Types*/
+.topHeader {
+    text-align: center;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    font-size: 2.3em;
+}
+
+.subHeader {
+    text-align: center;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 1.5em;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D3D3D;
+    font-size: 1em;
+}
+
+.section {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+hr {
+    background: #3D3D3D;
+    height: 0.1em;
+}
+
+.sectionHeader {
+    text-align: left;
+    color: #3D3D3D;
+    font-size: 1.25em;
+    margin-bottom: 0.2em;
+}
+
+.courses {
+    font-size: 1.3em;
+    color: #707070;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1.2em;
+}
+
+/*landingpage*/
+
+.column {
+    margin-left: 19%;
+    display: inline-block;
+    width: 20%;
+}
+
+img.column {
+    width: 85%;
+    height: auto;
+}
+
+p.column {
+    width: 85%;
+    color:#3D3D3D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*loginpages*/
+.loginAll {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin-left: 30%;
+}
+
+/*login icon formatting*/
+.logIcon {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+#nonIcon {
+    width: 20%;
+    height: auto;
+}
+
+#selectedIcon {
+    width: 65%;
+    height: auto;
+}
+
+/*login field formatting*/
+div.logincontainer {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+
+form > input.loginInput {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    border: 1em;
+    border-radius: 4px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+form > input.loginLabel {
+    width: 100%;
+    color: #3D3D3D;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0;
+    cursor: pointer;
+}
