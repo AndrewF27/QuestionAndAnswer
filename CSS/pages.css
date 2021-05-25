@@ -2,11 +2,13 @@
 /*Header/Navbar Code*/
 .templateheader {
     
-    position: absolute;
-     background-color: rgb(51, 146, 235);
-     height: 4%;
-     width: 100% ;
-     border-bottom: 1px solid rgb(51, 146, 235);
+    /*position: absolute;
+    background-color: rgb(51, 146, 235);
+    height: 4%;
+    width: 100% ;
+    border-bottom: 1px solid rgb(51, 146, 235);*/
+    padding: 0.5%;
+    background-color: rgb(51, 146, 235);
 }
  
 ul {
@@ -18,7 +20,8 @@ ul {
 }
 
 li {
-     float: left;
+    display: inline;
+    float: left;
 }
 
 li a {
@@ -113,15 +116,16 @@ p.column {
 .loginAll {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
-    width: 60%;
-    margin-left: 30%;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
 }
 
 /*login icon formatting*/
-.logIcon {
-    width: 20%;
+.userIcon {
+    width: 40%;
     height: auto;
-    display: inline-block;
+    margin-left: 37.5%;
 }
 
 #nonIcon {
@@ -138,7 +142,7 @@ p.column {
 div.logincontainer {
     width: 40%;
     height: auto;
-    display: inline-block;
+    margin: auto;
 }
 
 form > input.loginInput {
