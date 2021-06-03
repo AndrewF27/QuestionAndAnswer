@@ -1,0 +1,15 @@
+{
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewF27/QuestionAndAnswer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
